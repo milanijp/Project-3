@@ -201,10 +201,3 @@ function createCell(id, date, val, callback) {
     cell.setAttribute("class", "black");
     return cell;
 }
-
-function clickDate(id, date, cell, callback) {
-    date.day = cell.firstChild.textContent;
-    date.year = date.getFullYear();
-    date.month = date.getMonth() + 1;
-    callback.call(this, id, date);
-}
