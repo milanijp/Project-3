@@ -171,7 +171,6 @@ function addAllDates(tblBody3, date, callback, id) {
         }
         tblBody3.appendChild(row);
     }
-
 }
 
 function getNumDays(month, date) {
