@@ -1,6 +1,6 @@
 .tbl1 {
     width: 100%;
-    background: #1abc9c;
+    background: lightblue;
     color: white;
 }
 .left {
@@ -14,14 +14,14 @@
 }
 .tbl2 {
     width: 100%;
-    background: white;
-    color: black;
+    background: lightblue;
+    color: white;
     table-layout: fixed;
 }
 .tbl3 {
     width: 100%;
-    background: white;
-    color: black;
+    background: lightblue;
+    color: white;
     table-layout: fixed;
 }
 .gray {
